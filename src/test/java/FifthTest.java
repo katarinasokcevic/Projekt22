@@ -1,8 +1,7 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -11,16 +10,18 @@ import org.testng.annotations.Test;
 import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
+//KORISTENJE FIREFOX , OPIS ARTIKLA
+
 public class FifthTest {
     public WebDriver driver;
 
-    public String testURL = "https://hdbs.hr/";
+    public String testURL = "https://proton-vrecice.hr/";
 
     @BeforeMethod
     public void setupTest() {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\kety\\Downloads\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
 
-        driver = new ChromeDriver();
+        driver = new FirefoxDriver();
         driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
 
         driver.navigate().to(testURL);
@@ -28,33 +29,29 @@ public class FifthTest {
     @Test
     public void googleSearchTest() throws InterruptedException {
         driver.manage().window().maximize();
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofMillis(50));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofMillis(80));
 
-        WebElement button = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[3]/header/div[2]/div[2]/div/div/div/div[2]/div/div[2]/ul/li[4]/a")));
-
-        Thread.sleep(2000);
-
+        WebElement button = driver.findElement(By.xpath("//*[@id=\"category-6\"]/a"));
         button.click();
-
-        Thread.sleep(3000);
-
-        WebElement testLink =
-                driver.findElement(By.xpath("/html/body/div[3]/div[1]/section/div/div/div[2]/div/div/div/div[3]/div[1]/div[1]")
-                );
-
-        testLink.click();
-
         Thread.sleep(2000);
 
-        WebElement testLink2 = driver.findElement(By.xpath("/html/body/div[3]/div[1]/section/div/div/div[2]/div/div/div/div[3]/div[1]/div[2]/a/h3"));
-        testLink2.click();
+        WebElement samsung = driver.findElement(By.xpath("//*[@id=\"left-column\"]/div[1]/ul/li[2]/ul/li[1]/a"));
+        samsung.click();
+        Thread.sleep(2000);
 
-        Thread.sleep(3000);
+        WebElement slika = driver.findElement(By.xpath("//*[@id=\"js-product-list\"]/div[1]/div/article/div/div[1]/a/img"));
+        slika.click();
+        Thread.sleep(2000);
 
-        // We expect two tabs
-        Assert.assertEquals(driver.getWindowHandles().size(), 2);
+        WebElement details = driver.findElement(By.xpath("//*[@id=\"main\"]/div[1]/div[2]/div[2]/div[3]/ul/li[2]/a"));
+        details.click();
+        Thread.sleep(2000);
+
+        WebElement text = driver.findElement(By.xpath("//*[@id=\"product-details\"]/div[1]"));
+        Assert.assertEquals(text.getText(), "Referenca TIP 2");
+
     }
-    //---------------Test TearDown-----------------------------------
+
     @AfterMethod
     public void teardownTest() {
         driver.quit();

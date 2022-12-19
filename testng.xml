@@ -4,10 +4,11 @@
     <test name="My First Selenium TestNG Test">
         <classes>
             <class name="FirstTest"/>
-            <class name="SecondTest"/>
             <class name="ThirdTest"/>
+            <class name="SecondTest"/>
             <class name="ForthTest"/>
             <class name="FifthTest"/>
+            <class name="SixthTest"/>
         </classes>
     </test>
 </suite>
