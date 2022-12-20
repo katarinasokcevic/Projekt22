@@ -7,19 +7,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2deb01cd-6423-4f0c-a91c-ea2c01fc15da" name="Changes" comment="changes">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="2deb01cd-6423-4f0c-a91c-ea2c01fc15da" name="Changes" comment="proton test 6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FifthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FifthTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FirstTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ForthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ForthTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SecondTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SecondTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ThirdTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ThirdTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/FifthTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/FifthTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/FirstTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/FirstTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ForthTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ForthTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SecondTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SecondTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ThirdTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ThirdTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FifthTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ProtonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ForthTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SecondTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ThirdTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/FifthTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/FirstTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ForthTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SecondTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ThirdTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,11 +97,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstTest.googleSearchTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ProtonTest.addAndRemoveFromCartTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="projekt22" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstTest" />
+      <option name="MAIN_CLASS_NAME" value="ProtonTest" />
+      <option name="METHOD_NAME" value="addAndRemoveFromCartTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProtonTest.checkoutTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="projekt22" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProtonTest" />
+      <option name="METHOD_NAME" value="checkoutTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProtonTest.detailOfProduct" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="projekt22" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProtonTest" />
+      <option name="METHOD_NAME" value="detailOfProduct" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProtonTest.googleSearchTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="projekt22" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProtonTest" />
       <option name="METHOD_NAME" value="googleSearchTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProtonTest.kirbyTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="projekt22" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProtonTest" />
+      <option name="METHOD_NAME" value="kirbyTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -112,7 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.FirstTest.googleSearchTest" />
+        <item itemvalue="TestNG.ProtonTest.detailOfProduct" />
+        <item itemvalue="TestNG.ProtonTest.addAndRemoveFromCartTest" />
+        <item itemvalue="TestNG.ProtonTest.checkoutTest" />
+        <item itemvalue="TestNG.ProtonTest.kirbyTest" />
+        <item itemvalue="TestNG.ProtonTest.googleSearchTest" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +194,13 @@
       <option name="presentableId" value="LOCAL−00003" />
       <updated>1671404570325</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL−00004" summary="proton testovi">
+      <created>1671467179050</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1671467179050</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -166,7 +223,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Five tests" />
     <MESSAGE value="changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes" />
+    <MESSAGE value="proton testovi" />
+    <MESSAGE value="proton test 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="proton test 6" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

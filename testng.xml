@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="AllTestsSuite">
-    <test name="My First Selenium TestNG Test">
+    <test name="Projekt22">
         <classes>
-            <class name="FirstTest"/>
-            <class name="ThirdTest"/>
-            <class name="SecondTest"/>
-            <class name="ForthTest"/>
-            <class name="FifthTest"/>
-            <class name="SixthTest"/>
+            <class name="ProtonTest"/>
         </classes>
     </test>
 </suite>
