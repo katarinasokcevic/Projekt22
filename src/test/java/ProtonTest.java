@@ -49,34 +49,24 @@ public class ProtonTest {
 
         email_name.sendKeys("katarina.sokcevic.vk@gmail.com");
 
-        Thread.sleep(300);
-
         WebElement lozinka =
                 driver.findElement(By.id("field-password"));
 
         lozinka.sendKeys("lozinka123");
 
-        Thread.sleep(1000);
-
         WebElement prijava_button =
                 driver.findElement(By.id("submit-login"));
         prijava_button.click();
-
-        Thread.sleep(2000);
 
         WebElement textbox =
                 driver.findElement(By.xpath("//*[@id=\"blockEmailSubscription_displayFooterBefore\"]/div/div/form/div/div[1]/div[1]/input"));
 
         textbox.sendKeys("katarina.sokcevic.vk@gmail.com");
 
-        Thread.sleep(2000);
-
         WebElement pretplata =
                 driver.findElement(By.xpath("//*[@id=\"blockEmailSubscription_displayFooterBefore\"]/div/div/form/div/div[1]/input[1]"));
 
         pretplata.click();
-
-        Thread.sleep(2000);
 
         WebElement text =
                 driver.findElement(By.xpath("//*[@id=\"blockEmailSubscription_displayFooterBefore\"]/div/div/form/p"));
@@ -95,19 +85,13 @@ public class ProtonTest {
         searchbox.sendKeys("kirby");
         searchbox.submit();
 
-        Thread.sleep(1000);
-
         this.clickThrough(new ArrayList<By>() {{
             add(By.xpath("//*[@id=\"js-product-list\"]/div[1]/div/article/div/div[1]/a/img"));
         }});
 
-        Thread.sleep(1000);
-
         WebElement testLink =
                 driver.findElement(By.xpath("//*[@id=\"main\"]/div[1]/div[2]/h1")
                 );
-
-        Thread.sleep(1000);
 
         Assert.assertEquals(testLink.getText(), "TIP 40 KIRBY VREĆICA ZA USISAVAČ - 3 KOM");
         System.out.print(testLink.getText());
@@ -123,13 +107,9 @@ public class ProtonTest {
             add(By.xpath("//*[@id=\"main\"]/div/div[2]/div/div[2]/div/a"));
         }});
 
-        Thread.sleep(1000);
-
         WebElement testLink =
                 driver.findElement(By.xpath("//*[@id=\"checkout-personal-information-step\"]/div/ul/li[1]/a")
                 );
-
-        Thread.sleep(1000);
 
         Assert.assertEquals(testLink.getText(), "Naručite kao gost uz obvezu plaćanja");
         System.out.print(testLink.getText());
@@ -145,20 +125,15 @@ public class ProtonTest {
             add(By.xpath("//*[@id=\"blockcart-modal\"]/div/div/div[2]/div/div[2]/div/div/a"));
         }});
 
-        Thread.sleep(1000);
-
         Assert.assertEquals(driver.findElement(By.xpath("//*[@id=\"cart-subtotal-products\"]/span[1]")).getText(), "2 artikala");
         WebElement remove =
                 driver.findElement(By.xpath("//*[@id=\"main\"]/div/div[1]/div/div[2]/ul/li/div/div[3]/div/div[3]/div/a/i"));
 
         remove.click();
-        Thread.sleep(1000);
 
         WebElement testLink =
                 driver.findElement(By.xpath("//*[@id=\"main\"]/div/div[1]/div/div[2]/span")
                 );
-
-        Thread.sleep(1000);
 
         Assert.assertEquals(testLink.getText(), "Nemate više artikala u košarici");
         System.out.print(testLink.getText());
@@ -174,11 +149,9 @@ public class ProtonTest {
             add(By.xpath("//*[@id=\"main\"]/div[1]/div[2]/div[2]/div[3]/ul/li[2]/a"));
         }});
 
-        Thread.sleep(1000);
+        Thread.sleep(300);
 
         WebElement text = driver.findElement(By.xpath("//*[@id=\"product-details\"]/div[1]"));
-
-        Thread.sleep(1000);
 
         Assert.assertEquals(text.getText(), "Referenca TIP 2");
         System.out.print(text.getText());
@@ -192,18 +165,14 @@ public class ProtonTest {
         searchbox.sendKeys("vrećica");
         searchbox.submit();
 
-        Thread.sleep(1000);
-
         clickThrough(new ArrayList<By>() {{
             add(By.xpath("//*[@id=\"js-product-list-top\"]/div[2]/div/div/button"));
             add(By.xpath("//*[@id=\"js-product-list-top\"]/div[2]/div/div/div/a[5]"));
         }});
 
-        Thread.sleep(1000);
+        Thread.sleep(300);
 
         WebElement text = driver.findElement(By.xpath("//*[@id=\"js-product-list\"]/div[1]/div[1]/article/div/div[2]/h2/a"));
-
-        Thread.sleep(1000);
 
         Assert.assertEquals(text.getText(), "TIP 33...");
         System.out.print(text.getText());
