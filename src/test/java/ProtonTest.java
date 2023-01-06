@@ -174,7 +174,7 @@ public class ProtonTest {
 
         WebElement text = driver.findElement(By.xpath("//*[@id=\"js-product-list\"]/div[1]/div[1]/article/div/div[2]/h2/a"));
 
-        Assert.assertEquals(text.getText(), "TIP 33...");
+        Assert.assertEquals(text.getText(), "TIP 59 Hoover,Miele Vrećica...");
         System.out.print(text.getText());
 
     }
