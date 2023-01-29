@@ -15,21 +15,21 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 
-public class ProtonTest {
-    public WebDriver driver;
-    public WebDriverWait wait;
-    public String testBaseURL = "https://proton-vrecice.hr/";
+public abstract class ProtonTest {
+    private WebDriver driver;
+    private WebDriverWait wait;
+    private final String testBaseURL = "https://proton-vrecice.hr/";
 
     @BeforeMethod
     public void setupTest() {
-        System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
-
-        driver = new ChromeDriver();
+        driver = this.createDriver();
         driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
         driver.manage().window().maximize();
 
-        wait = new WebDriverWait(driver, Duration.ofMillis(300));
+        wait = new WebDriverWait(driver, Duration.ofMillis(1000));
     }
+
+    abstract protected WebDriver createDriver();
 
     private void clickThrough(List<By> bys) {
         for (By by : bys) {
@@ -164,10 +164,12 @@ public class ProtonTest {
         WebElement searchbox = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"search_widget\"]/form/input[2]")));
         searchbox.sendKeys("vrećica");
         searchbox.submit();
+        Thread.sleep(1000);
 
-        clickThrough(new ArrayList<By>() {{
-            add(By.xpath("//*[@id=\"js-product-list-top\"]/div[2]/div/div/button"));
-            add(By.xpath("//*[@id=\"js-product-list-top\"]/div[2]/div/div/div/a[5]"));
+        clickThrough(new ArrayList<By>() {
+            {
+                add(By.xpath("//*[@id=\"js-product-list-top\"]/div[2]/div/div/button")); // poslozi po
+                add(By.xpath("//*[@id=\"js-product-list-top\"]/div[2]/div/div/div/a[5]")); // cijena, silazno
         }});
 
         Thread.sleep(300);

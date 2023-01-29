@@ -7,10 +7,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2deb01cd-6423-4f0c-a91c-ea2c01fc15da" name="Changes" comment="finished">
+    <list default="true" id="2deb01cd-6423-4f0c-a91c-ea2c01fc15da" name="Changes" comment="fixed">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ProtonChromeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ProtonEdgeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ProtonFirefoxTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ProtonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ProtonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/AllTestsSuite/Projekt22.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/AllTestsSuite/Projekt22.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/AllTestsSuite/Projekt22.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/AllTestsSuite/Projekt22.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ProtonTest$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ProtonTest$6.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/ProtonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ProtonTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,8 +82,33 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.C:/Users/kety/IdeaProjects/projekt22/testng.xml">
-    <configuration name="C:/Users/kety/IdeaProjects/projekt22/testng.xml" type="TestNG" nameIsGenerated="true">
+  <component name="RunManager" selected="Maven.projekt22 [test]">
+    <configuration name="projekt22 [test]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="test" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="C:/Users/kety/IdeaProjects/projekt22/testng.xml" type="TestNG" folderName="New Folder" nameIsGenerated="true">
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
@@ -88,10 +126,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProtonTest.addAndRemoveFromCartTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ProtonChromeTest.filterProducts" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="projekt22" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ProtonTest" />
+      <option name="MAIN_CLASS_NAME" value="ProtonChromeTest" />
+      <option name="METHOD_NAME" value="filterProducts" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProtonFirefoxTest.addAndRemoveFromCartTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="projekt22" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProtonFirefoxTest" />
       <option name="METHOD_NAME" value="addAndRemoveFromCartTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -100,11 +152,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProtonTest.checkoutTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ProtonFirefoxTest.filterProducts" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="projekt22" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ProtonTest" />
-      <option name="METHOD_NAME" value="checkoutTest" />
+      <option name="MAIN_CLASS_NAME" value="ProtonFirefoxTest" />
+      <option name="METHOD_NAME" value="filterProducts" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -112,11 +164,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProtonTest.detailOfProduct" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ProtonIETest.addAndRemoveFromCartTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="projekt22" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ProtonTest" />
-      <option name="METHOD_NAME" value="detailOfProduct" />
+      <option name="MAIN_CLASS_NAME" value="ProtonIETest" />
+      <option name="METHOD_NAME" value="addAndRemoveFromCartTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -124,11 +177,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProtonTest.googleSearchTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ProtonTestEdge.filterProducts" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="projekt22" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ProtonTest" />
-      <option name="METHOD_NAME" value="googleSearchTest" />
+      <option name="MAIN_CLASS_NAME" value="ProtonTestEdge" />
+      <option name="METHOD_NAME" value="filterProducts" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -136,11 +189,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProtonTest.kirbyTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ProtonTestEdge.kirbySearchTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="projekt22" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ProtonTest" />
-      <option name="METHOD_NAME" value="kirbyTest" />
+      <option name="MAIN_CLASS_NAME" value="ProtonTestEdge" />
+      <option name="METHOD_NAME" value="kirbySearchTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -148,13 +201,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Maven.projekt22 [test]" />
+      <item itemvalue="TestNG.C:/Users/kety/IdeaProjects/projekt22/testng.xml" />
+      <item itemvalue="TestNG.ProtonChromeTest.filterProducts" />
+      <item itemvalue="TestNG.ProtonFirefoxTest.addAndRemoveFromCartTest" />
+      <item itemvalue="TestNG.ProtonFirefoxTest.filterProducts" />
+      <item itemvalue="TestNG.ProtonTestEdge.filterProducts" />
+      <item itemvalue="TestNG.ProtonTestEdge.kirbySearchTest" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ProtonTest.detailOfProduct" />
-        <item itemvalue="TestNG.ProtonTest.addAndRemoveFromCartTest" />
-        <item itemvalue="TestNG.ProtonTest.checkoutTest" />
-        <item itemvalue="TestNG.ProtonTest.kirbyTest" />
-        <item itemvalue="TestNG.ProtonTest.googleSearchTest" />
+        <item itemvalue="TestNG.ProtonFirefoxTest.filterProducts" />
+        <item itemvalue="TestNG.ProtonIETest.addAndRemoveFromCartTest" />
+        <item itemvalue="TestNG.ProtonFirefoxTest.addAndRemoveFromCartTest" />
+        <item itemvalue="TestNG.ProtonChromeTest.filterProducts" />
+        <item itemvalue="TestNG.ProtonTestEdge.kirbySearchTest" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +259,13 @@
       <option name="presentableId" value="LOCAL−00005" />
       <updated>1671534623901</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL−00006" summary="fixed">
+      <created>1673004810001</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1673004810001</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -223,18 +291,8 @@
     <MESSAGE value="proton testovi" />
     <MESSAGE value="proton test 6" />
     <MESSAGE value="finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ProtonTest.java</url>
-          <line>176</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

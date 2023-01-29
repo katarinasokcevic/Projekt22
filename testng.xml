@@ -3,7 +3,9 @@
 <suite name="AllTestsSuite">
     <test name="Projekt22">
         <classes>
-            <class name="ProtonTest"/>
+            <class name="ProtonChromeTest"/>
+            <class name="ProtonEdgeTest"/>
+            <class name="ProtonFirefoxTest"/>
         </classes>
     </test>
 </suite>

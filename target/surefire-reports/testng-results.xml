@@ -1,85 +1,233 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-20T12:06:47 CET" name="AllTestsSuite" finished-at="2022-12-20T12:07:02 CET" duration-ms="15329">
+  <suite started-at="2023-01-30T00:43:00 CET" name="AllTestsSuite" finished-at="2023-01-30T00:44:06 CET" duration-ms="66110">
     <groups>
     </groups>
-    <test started-at="2022-12-20T12:06:47 CET" name="Projekt22" finished-at="2022-12-20T12:07:02 CET" duration-ms="15329">
-      <class name="ProtonTest">
-        <test-method is-config="true" signature="setupTest()[pri:0, instance:ProtonTest@bcec361]" started-at="2022-12-20T12:06:47 CET" name="setupTest" finished-at="2022-12-20T12:06:49 CET" duration-ms="1468" status="PASS">
+    <test started-at="2023-01-30T00:43:00 CET" name="Projekt22" finished-at="2023-01-30T00:44:06 CET" duration-ms="66110">
+      <class name="ProtonChromeTest">
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:ProtonChromeTest@3d285d7e]" started-at="2023-01-30T00:43:00 CET" name="setupTest" finished-at="2023-01-30T00:43:01 CET" duration-ms="1256" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method signature="addAndRemoveFromCartTest()[pri:0, instance:ProtonTest@bcec361]" started-at="2022-12-20T12:06:49 CET" name="addAndRemoveFromCartTest" finished-at="2022-12-20T12:06:51 CET" duration-ms="1971" status="PASS">
+        <test-method signature="addAndRemoveFromCartTest()[pri:0, instance:ProtonChromeTest@3d285d7e]" started-at="2023-01-30T00:43:01 CET" name="addAndRemoveFromCartTest" finished-at="2023-01-30T00:43:03 CET" duration-ms="1890" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addAndRemoveFromCartTest -->
-        <test-method is-config="true" signature="teardownTest()[pri:0, instance:ProtonTest@bcec361]" started-at="2022-12-20T12:06:51 CET" name="teardownTest" finished-at="2022-12-20T12:06:51 CET" duration-ms="119" status="PASS">
+        <test-method is-config="true" signature="teardownTest()[pri:0, instance:ProtonChromeTest@3d285d7e]" started-at="2023-01-30T00:43:03 CET" name="teardownTest" finished-at="2023-01-30T00:43:04 CET" duration-ms="146" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownTest -->
-        <test-method is-config="true" signature="setupTest()[pri:0, instance:ProtonTest@bcec361]" started-at="2022-12-20T12:06:51 CET" name="setupTest" finished-at="2022-12-20T12:06:51 CET" duration-ms="703" status="PASS">
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:ProtonChromeTest@3d285d7e]" started-at="2023-01-30T00:43:04 CET" name="setupTest" finished-at="2023-01-30T00:43:04 CET" duration-ms="655" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method signature="checkoutTest()[pri:0, instance:ProtonTest@bcec361]" started-at="2022-12-20T12:06:51 CET" name="checkoutTest" finished-at="2022-12-20T12:06:53 CET" duration-ms="1980" status="PASS">
+        <test-method signature="checkoutTest()[pri:0, instance:ProtonChromeTest@3d285d7e]" started-at="2023-01-30T00:43:04 CET" name="checkoutTest" finished-at="2023-01-30T00:43:06 CET" duration-ms="1918" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkoutTest -->
-        <test-method is-config="true" signature="teardownTest()[pri:0, instance:ProtonTest@bcec361]" started-at="2022-12-20T12:06:53 CET" name="teardownTest" finished-at="2022-12-20T12:06:54 CET" duration-ms="140" status="PASS">
+        <test-method is-config="true" signature="teardownTest()[pri:0, instance:ProtonChromeTest@3d285d7e]" started-at="2023-01-30T00:43:06 CET" name="teardownTest" finished-at="2023-01-30T00:43:06 CET" duration-ms="114" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownTest -->
-        <test-method is-config="true" signature="setupTest()[pri:0, instance:ProtonTest@bcec361]" started-at="2022-12-20T12:06:54 CET" name="setupTest" finished-at="2022-12-20T12:06:54 CET" duration-ms="698" status="PASS">
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:ProtonChromeTest@3d285d7e]" started-at="2023-01-30T00:43:06 CET" name="setupTest" finished-at="2023-01-30T00:43:07 CET" duration-ms="643" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method signature="detailOfProduct()[pri:0, instance:ProtonTest@bcec361]" started-at="2022-12-20T12:06:54 CET" name="detailOfProduct" finished-at="2022-12-20T12:06:56 CET" duration-ms="1828" status="PASS">
+        <test-method signature="detailOfProduct()[pri:0, instance:ProtonChromeTest@3d285d7e]" started-at="2023-01-30T00:43:07 CET" name="detailOfProduct" finished-at="2023-01-30T00:43:09 CET" duration-ms="1721" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- detailOfProduct -->
-        <test-method is-config="true" signature="teardownTest()[pri:0, instance:ProtonTest@bcec361]" started-at="2022-12-20T12:06:56 CET" name="teardownTest" finished-at="2022-12-20T12:06:56 CET" duration-ms="114" status="PASS">
+        <test-method is-config="true" signature="teardownTest()[pri:0, instance:ProtonChromeTest@3d285d7e]" started-at="2023-01-30T00:43:09 CET" name="teardownTest" finished-at="2023-01-30T00:43:09 CET" duration-ms="112" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownTest -->
-        <test-method is-config="true" signature="setupTest()[pri:0, instance:ProtonTest@bcec361]" started-at="2022-12-20T12:06:56 CET" name="setupTest" finished-at="2022-12-20T12:06:57 CET" duration-ms="720" status="PASS">
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:ProtonChromeTest@3d285d7e]" started-at="2023-01-30T00:43:09 CET" name="setupTest" finished-at="2023-01-30T00:43:09 CET" duration-ms="633" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method signature="filterProducts()[pri:0, instance:ProtonTest@bcec361]" started-at="2022-12-20T12:06:57 CET" name="filterProducts" finished-at="2022-12-20T12:06:58 CET" duration-ms="1352" status="PASS">
+        <test-method signature="filterProducts()[pri:0, instance:ProtonChromeTest@3d285d7e]" started-at="2023-01-30T00:43:09 CET" name="filterProducts" finished-at="2023-01-30T00:43:12 CET" duration-ms="2290" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- filterProducts -->
-        <test-method is-config="true" signature="teardownTest()[pri:0, instance:ProtonTest@bcec361]" started-at="2022-12-20T12:06:58 CET" name="teardownTest" finished-at="2022-12-20T12:06:58 CET" duration-ms="147" status="PASS">
+        <test-method is-config="true" signature="teardownTest()[pri:0, instance:ProtonChromeTest@3d285d7e]" started-at="2023-01-30T00:43:12 CET" name="teardownTest" finished-at="2023-01-30T00:43:12 CET" duration-ms="124" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownTest -->
-        <test-method is-config="true" signature="setupTest()[pri:0, instance:ProtonTest@bcec361]" started-at="2022-12-20T12:06:58 CET" name="setupTest" finished-at="2022-12-20T12:06:59 CET" duration-ms="702" status="PASS">
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:ProtonChromeTest@3d285d7e]" started-at="2023-01-30T00:43:12 CET" name="setupTest" finished-at="2023-01-30T00:43:12 CET" duration-ms="646" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method signature="kirbySearchTest()[pri:0, instance:ProtonTest@bcec361]" started-at="2022-12-20T12:06:59 CET" name="kirbySearchTest" finished-at="2022-12-20T12:07:00 CET" duration-ms="983" status="PASS">
+        <test-method signature="kirbySearchTest()[pri:0, instance:ProtonChromeTest@3d285d7e]" started-at="2023-01-30T00:43:12 CET" name="kirbySearchTest" finished-at="2023-01-30T00:43:13 CET" duration-ms="923" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- kirbySearchTest -->
-        <test-method is-config="true" signature="teardownTest()[pri:0, instance:ProtonTest@bcec361]" started-at="2022-12-20T12:07:00 CET" name="teardownTest" finished-at="2022-12-20T12:07:00 CET" duration-ms="119" status="PASS">
+        <test-method is-config="true" signature="teardownTest()[pri:0, instance:ProtonChromeTest@3d285d7e]" started-at="2023-01-30T00:43:13 CET" name="teardownTest" finished-at="2023-01-30T00:43:13 CET" duration-ms="118" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownTest -->
-        <test-method is-config="true" signature="setupTest()[pri:0, instance:ProtonTest@bcec361]" started-at="2022-12-20T12:07:00 CET" name="setupTest" finished-at="2022-12-20T12:07:01 CET" duration-ms="708" status="PASS">
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:ProtonChromeTest@3d285d7e]" started-at="2023-01-30T00:43:13 CET" name="setupTest" finished-at="2023-01-30T00:43:14 CET" duration-ms="645" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method signature="loginPretplataTest()[pri:0, instance:ProtonTest@bcec361]" started-at="2022-12-20T12:07:01 CET" name="loginPretplataTest" finished-at="2022-12-20T12:07:02 CET" duration-ms="1428" status="PASS">
+        <test-method signature="loginPretplataTest()[pri:0, instance:ProtonChromeTest@3d285d7e]" started-at="2023-01-30T00:43:14 CET" name="loginPretplataTest" finished-at="2023-01-30T00:43:15 CET" duration-ms="1365" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPretplataTest -->
-        <test-method is-config="true" signature="teardownTest()[pri:0, instance:ProtonTest@bcec361]" started-at="2022-12-20T12:07:02 CET" name="teardownTest" finished-at="2022-12-20T12:07:02 CET" duration-ms="118" status="PASS">
+        <test-method is-config="true" signature="teardownTest()[pri:0, instance:ProtonChromeTest@3d285d7e]" started-at="2023-01-30T00:43:15 CET" name="teardownTest" finished-at="2023-01-30T00:43:16 CET" duration-ms="125" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownTest -->
-      </class> <!-- ProtonTest -->
+      </class> <!-- ProtonChromeTest -->
+      <class name="ProtonFirefoxTest">
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:ProtonFirefoxTest@69453e37]" started-at="2023-01-30T00:43:41 CET" name="setupTest" finished-at="2023-01-30T00:43:42 CET" duration-ms="1771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="addAndRemoveFromCartTest()[pri:0, instance:ProtonFirefoxTest@69453e37]" started-at="2023-01-30T00:43:42 CET" name="addAndRemoveFromCartTest" finished-at="2023-01-30T00:43:45 CET" duration-ms="2044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAndRemoveFromCartTest -->
+        <test-method is-config="true" signature="teardownTest()[pri:0, instance:ProtonFirefoxTest@69453e37]" started-at="2023-01-30T00:43:45 CET" name="teardownTest" finished-at="2023-01-30T00:43:45 CET" duration-ms="559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownTest -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:ProtonFirefoxTest@69453e37]" started-at="2023-01-30T00:43:45 CET" name="setupTest" finished-at="2023-01-30T00:43:47 CET" duration-ms="1889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="checkoutTest()[pri:0, instance:ProtonFirefoxTest@69453e37]" started-at="2023-01-30T00:43:47 CET" name="checkoutTest" finished-at="2023-01-30T00:43:49 CET" duration-ms="1924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutTest -->
+        <test-method is-config="true" signature="teardownTest()[pri:0, instance:ProtonFirefoxTest@69453e37]" started-at="2023-01-30T00:43:49 CET" name="teardownTest" finished-at="2023-01-30T00:43:49 CET" duration-ms="547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownTest -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:ProtonFirefoxTest@69453e37]" started-at="2023-01-30T00:43:49 CET" name="setupTest" finished-at="2023-01-30T00:43:51 CET" duration-ms="1903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="detailOfProduct()[pri:0, instance:ProtonFirefoxTest@69453e37]" started-at="2023-01-30T00:43:51 CET" name="detailOfProduct" finished-at="2023-01-30T00:43:53 CET" duration-ms="2022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detailOfProduct -->
+        <test-method is-config="true" signature="teardownTest()[pri:0, instance:ProtonFirefoxTest@69453e37]" started-at="2023-01-30T00:43:53 CET" name="teardownTest" finished-at="2023-01-30T00:43:54 CET" duration-ms="560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownTest -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:ProtonFirefoxTest@69453e37]" started-at="2023-01-30T00:43:54 CET" name="setupTest" finished-at="2023-01-30T00:43:56 CET" duration-ms="1784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="filterProducts()[pri:0, instance:ProtonFirefoxTest@69453e37]" started-at="2023-01-30T00:43:56 CET" name="filterProducts" finished-at="2023-01-30T00:43:58 CET" duration-ms="2402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterProducts -->
+        <test-method is-config="true" signature="teardownTest()[pri:0, instance:ProtonFirefoxTest@69453e37]" started-at="2023-01-30T00:43:58 CET" name="teardownTest" finished-at="2023-01-30T00:43:59 CET" duration-ms="675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownTest -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:ProtonFirefoxTest@69453e37]" started-at="2023-01-30T00:43:59 CET" name="setupTest" finished-at="2023-01-30T00:44:01 CET" duration-ms="1770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="kirbySearchTest()[pri:0, instance:ProtonFirefoxTest@69453e37]" started-at="2023-01-30T00:44:01 CET" name="kirbySearchTest" finished-at="2023-01-30T00:44:01 CET" duration-ms="933" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kirbySearchTest -->
+        <test-method is-config="true" signature="teardownTest()[pri:0, instance:ProtonFirefoxTest@69453e37]" started-at="2023-01-30T00:44:01 CET" name="teardownTest" finished-at="2023-01-30T00:44:02 CET" duration-ms="857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownTest -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:ProtonFirefoxTest@69453e37]" started-at="2023-01-30T00:44:02 CET" name="setupTest" finished-at="2023-01-30T00:44:04 CET" duration-ms="1804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="loginPretplataTest()[pri:0, instance:ProtonFirefoxTest@69453e37]" started-at="2023-01-30T00:44:04 CET" name="loginPretplataTest" finished-at="2023-01-30T00:44:06 CET" duration-ms="1513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPretplataTest -->
+        <test-method is-config="true" signature="teardownTest()[pri:0, instance:ProtonFirefoxTest@69453e37]" started-at="2023-01-30T00:44:06 CET" name="teardownTest" finished-at="2023-01-30T00:44:06 CET" duration-ms="651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownTest -->
+      </class> <!-- ProtonFirefoxTest -->
+      <class name="ProtonEdgeTest">
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:ProtonEdgeTest@2002fc1d]" started-at="2023-01-30T00:43:16 CET" name="setupTest" finished-at="2023-01-30T00:43:18 CET" duration-ms="2303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="addAndRemoveFromCartTest()[pri:0, instance:ProtonEdgeTest@2002fc1d]" started-at="2023-01-30T00:43:18 CET" name="addAndRemoveFromCartTest" finished-at="2023-01-30T00:43:20 CET" duration-ms="1850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAndRemoveFromCartTest -->
+        <test-method is-config="true" signature="teardownTest()[pri:0, instance:ProtonEdgeTest@2002fc1d]" started-at="2023-01-30T00:43:20 CET" name="teardownTest" finished-at="2023-01-30T00:43:20 CET" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownTest -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:ProtonEdgeTest@2002fc1d]" started-at="2023-01-30T00:43:20 CET" name="setupTest" finished-at="2023-01-30T00:43:22 CET" duration-ms="2363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="checkoutTest()[pri:0, instance:ProtonEdgeTest@2002fc1d]" started-at="2023-01-30T00:43:22 CET" name="checkoutTest" finished-at="2023-01-30T00:43:24 CET" duration-ms="1896" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutTest -->
+        <test-method is-config="true" signature="teardownTest()[pri:0, instance:ProtonEdgeTest@2002fc1d]" started-at="2023-01-30T00:43:24 CET" name="teardownTest" finished-at="2023-01-30T00:43:24 CET" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownTest -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:ProtonEdgeTest@2002fc1d]" started-at="2023-01-30T00:43:24 CET" name="setupTest" finished-at="2023-01-30T00:43:27 CET" duration-ms="2368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="detailOfProduct()[pri:0, instance:ProtonEdgeTest@2002fc1d]" started-at="2023-01-30T00:43:27 CET" name="detailOfProduct" finished-at="2023-01-30T00:43:28 CET" duration-ms="1744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detailOfProduct -->
+        <test-method is-config="true" signature="teardownTest()[pri:0, instance:ProtonEdgeTest@2002fc1d]" started-at="2023-01-30T00:43:28 CET" name="teardownTest" finished-at="2023-01-30T00:43:29 CET" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownTest -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:ProtonEdgeTest@2002fc1d]" started-at="2023-01-30T00:43:29 CET" name="setupTest" finished-at="2023-01-30T00:43:31 CET" duration-ms="2298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="filterProducts()[pri:0, instance:ProtonEdgeTest@2002fc1d]" started-at="2023-01-30T00:43:31 CET" name="filterProducts" finished-at="2023-01-30T00:43:33 CET" duration-ms="2274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterProducts -->
+        <test-method is-config="true" signature="teardownTest()[pri:0, instance:ProtonEdgeTest@2002fc1d]" started-at="2023-01-30T00:43:33 CET" name="teardownTest" finished-at="2023-01-30T00:43:33 CET" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownTest -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:ProtonEdgeTest@2002fc1d]" started-at="2023-01-30T00:43:33 CET" name="setupTest" finished-at="2023-01-30T00:43:36 CET" duration-ms="2357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="kirbySearchTest()[pri:0, instance:ProtonEdgeTest@2002fc1d]" started-at="2023-01-30T00:43:36 CET" name="kirbySearchTest" finished-at="2023-01-30T00:43:37 CET" duration-ms="925" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kirbySearchTest -->
+        <test-method is-config="true" signature="teardownTest()[pri:0, instance:ProtonEdgeTest@2002fc1d]" started-at="2023-01-30T00:43:37 CET" name="teardownTest" finished-at="2023-01-30T00:43:37 CET" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownTest -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:ProtonEdgeTest@2002fc1d]" started-at="2023-01-30T00:43:37 CET" name="setupTest" finished-at="2023-01-30T00:43:39 CET" duration-ms="2385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="loginPretplataTest()[pri:0, instance:ProtonEdgeTest@2002fc1d]" started-at="2023-01-30T00:43:39 CET" name="loginPretplataTest" finished-at="2023-01-30T00:43:41 CET" duration-ms="1394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPretplataTest -->
+        <test-method is-config="true" signature="teardownTest()[pri:0, instance:ProtonEdgeTest@2002fc1d]" started-at="2023-01-30T00:43:41 CET" name="teardownTest" finished-at="2023-01-30T00:43:41 CET" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownTest -->
+      </class> <!-- ProtonEdgeTest -->
     </test> <!-- Projekt22 -->
   </suite> <!-- AllTestsSuite -->
 </testng-results>
