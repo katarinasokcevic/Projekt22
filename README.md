@@ -2,7 +2,7 @@
 
 Projektni zadatak je automatsko testiranje Web aplikacije (Frontend- UI) sa Selenium WebDriver kao web framework koji omogućava izvršavanje automatskih testova. 
 
-Pri izvođenju ovog zadatka korišteni su Java development Kit, integrirano razvojno okruženje IntelliJ i Chrome driver.
+Pri izvođenju ovog zadatka korišteni su Java development Kit, integrirano razvojno okruženje IntelliJ, te Chrome, Firefox i Edge driver.
 
 Stranica na kojoj se provode testovi je web shop https://proton-vrecice.hr/ .
 
